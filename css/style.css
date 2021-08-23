@@ -186,3 +186,9 @@ h3 {
 .colophon-text {
     margin: 0;
 }
+
+@media (max-width: 768px) {
+    .content {
+        border: none;
+    }
+}
