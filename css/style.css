@@ -1,0 +1,188 @@
+/* Global section */
+
+:root {
+    --mainBg: #f4f4f6;
+    --darkBg: #131d29;
+    --text: #8e9295;
+    --textBlue: var(--darkBg);
+    --textTopHead: #5a6674;
+    --textBright: white;
+    --footerGradient1: #37597f;
+    --footerGradient2: #0f1821;
+    --lightButton: #213349;
+    --activeButton: #ff8901;
+    --smallFSize: clamp(0.5rem, 0.6vw, 1rem);
+    --textFSize: clamp(0.7rem, 1vw, 1rem);
+    --btnFSize: clamp(0.8rem, 1.5vw, 1.2rem);
+    --subHeadFSize: clamp(1.3rem, 2vw, 1.5rem);
+    --subSubHeadFSize: clamp(1.1rem, 1.5vw, 1.3rem);
+    --newsBtn1: #bd843f;
+    --newsBtn2: #bc6142;
+    --newsBtn3: #bd425e;
+}
+
+body {
+    background: var(--mainBg);
+}
+
+p {
+    color: var(--text);
+}
+
+a {
+    text-decoration: none;
+    color: var(--textBright);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: var(--btnFSize);
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: var(--activeButton);
+}
+
+.btn > a:hover {
+    color: var(--textBright);
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.sub-header {
+    font-size: var(--subHeadFSize);
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: var(--subSubHeadFSize);
+}
+
+/* header section */
+
+.top-header {
+    background: var(--darkBg);
+}
+
+.top-header a {
+    color: var(--textTopHead);
+    text-transform: uppercase;
+    font-size: var(--smallFSize);
+}
+
+.top-header a:hover {
+    color: var(--activeButton);
+}
+
+.main-header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-nav-item {
+    margin-right: 16px;
+    background: var(--darkBg);
+}
+
+/* main section */
+
+.content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-right: 1px solid var(--text);
+}
+
+.content .sub-header {
+    font-size: var(--subHeadFSize);
+    color: var(--darkBg);
+}
+
+.text {
+    font-size: var(--textFSize);
+}
+
+.stable {
+    border: none;
+}
+
+
+/* footer section */
+
+.main-footer {
+    padding: 16px;
+    background: radial-gradient(ellipse at top center, var(--footerGradient1), var(--footerGradient2));
+}
+
+.main-footer .sub-header {
+    color: var(--textBright);
+}
+
+.main-footer a:hover {
+    color: var(--activeButton);
+}
+
+.service-list-item {
+    font-size: var(--textFSize);
+    list-style-position: inside;
+    list-style-image: url("../media/cog.png");
+}
+
+.opp-list-item {
+    font-size: var(--textFSize);
+}
+
+.date-div p {
+    margin: 0;
+    color: var(--textBright);
+}
+
+.date-div {
+    margin: 2em;
+}
+
+.div1 {
+    background: var(--newsBtn1);
+}
+
+.div1:hover {
+    background: var(--newsBtn1);
+}
+
+.div2 {
+    background: var(--newsBtn2);
+}
+
+.div2:hover {
+    background: var(--newsBtn2);
+}
+
+.div3 {
+    background: var(--newsBtn3);
+}
+
+.div3:hover {
+    background: var(--newsBtn3);
+}
+
+.list-text {
+    font-size: var(--textFSize);
+}
+
+.colophon {
+    background: var(--darkBg);
+}
+
+.colophon-text {
+    margin: 0;
+}
