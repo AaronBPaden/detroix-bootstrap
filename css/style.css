@@ -98,8 +98,7 @@ h3 {
 /* main section */
 
 .content {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 1rem;
     border-right: 1px solid var(--text);
 }
 
